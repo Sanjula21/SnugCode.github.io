@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+<head>
+    
+  <meta charset="utf-8" >
+  <meta name="description" content="All HTML related to the Quiz Page">
+  <meta name="author" content="Sujaya, Dinal, Jayden, Sadev, Hiruna, Sithija">
+  <meta name="description" value="The Quiz page for the ruby programming language website.">
+  <meta name="keywords" value="ruby,programming,quiz,open source,HTML">
+    
+  <title>Quiz Page</title>
+
+  <link href='styles/style.css' rel='stylesheet'/>
+    
+</head>
+
+<body class="quiz">
+    
+    <section>
+    
+    <header>
+    
+        <nav>
+        
+            <div id="nav-link-section" class="nav-section">
+        
+                <a href="https://rubyonrails.org/">
+        
+                <img src="Images/logo.png" alt="Ruby on Rails Logo" height="80px" width="86px" id="logo" >
+            
+                </a>
+            
+                <a href="index.html"><button class="menu">Home</button></a>
+            
+                <a href="topic.html"><button class="menu">About Ruby</button></a>
+            
+                <a href="form.html"><button class="menu">Quiz</button></a>
+            
+            </div>
+        
+        </nav>
+    
+    </header>
+        
+    </section>
+    
+    <section>
+    
+    <h1>Ruby Quizlet</h1>
+
+<form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+    
+    <p>The Quizlet Below Is To Be Completed At Your Liesure </p>
+
+    <!-- Remember to put the tooltip tag and tell the person what they need to enter -->
+    
+    
+<!-- Fieldset for Student Details -->
+    
+    <fieldset>
+        
+      <legend>Student details</legend>
+
+      <p>
+        <!--Put parameters here for the student ID which should be between 7 digits and 10 digits -->  
+          
+        <label for = "id">Student ID</label>
+          
+        <input placeholder="Enter your Student ID" id ="SID" type = "text" name = "Student id" class="input" required pattern="[0-9]*" minlength="7" maxlength="10" title="Numbers should range between 7 - 10"> 
+          
+        <br>
+        <br> 
+          
+        <!-- Parameters here should indicate only letters capital and simple -->  
+          
+        <label for ="Fname">First Name</label>
+          
+        <input placeholder="Enter your First Name" name="First Name" id="Fname" type="text" name="text" class="input" title="Max 30 Characters: A-Z, a-z, - only" 
+        pattern="^[a-zA-Z\s-]*$" maxlength="30" required = "required">
+          
+        <!-- Parameters here should indicate only letters capital and simple -->  
+          
+        <label for ="Lname">Last Name</label>
+          
+        <input placeholder="Enter your Last Name" name="Last Name" id="Lname" type="text" name="text" class="input" title="Max 30 Characters: A-Z, a-z, - only" 
+        pattern="^[a-zA-Z\s-]*$" maxlength="30" required = "required">
+        
+      </p>
+            
+    </fieldset>
+    
+    
+<!-- Fieldset for Question 1 -->
+    
+    <Fieldset>
+        
+      <Legend>Question 1</Legend>
+
+        <label>Is Ruby on Rails Declining or Growing?</label>
+        
+        <br>
+        
+        <!-- Parameters should include only letter both capital and simple and the max number of letters should be 7 -->
+        <input type="text" placeholder="Growth or Decline" class="input" name="Q1" title = "Type 'Growth' or 'Decline'" maxlength="7" required ="required">
+        
+    </Fieldset>
+    
+
+<!-- Fieldset for Question 2 --> 
+    
+    <Fieldset>
+        
+      <Legend>Question 2</Legend>
+
+      <p>What is the name of the developer of the language?</p>
+
+         <p>
+             
+          <label for ="Developer">The developer is </label>
+             
+          <select name = "Q2" id = "Developer" required ="required"> 
+              
+          <option value="">Please Select</option>
+              
+          <option value="Miyamoto Musashi" >Miyamoto Musashi</option>
+              
+          <option value="Kamado Tanjiro">Kamado Tanjiro</option>
+              
+          <option value="Yukihiro Matsumoto">Yukihiro Matsumoto</option>
+              
+          <option value="Kiyotaka Ayanokoji">Kiyotaka Ayanokoji</option>
+              
+          </select>
+             
+             
+        </p>
+        
+    </Fieldset>
+    
+    
+<!-- Fieldset for Question 3 -->
+    
+    <Fieldset>
+        
+      <legend>Question 3</legend>
+
+      <p>What is Ruby</p>
+
+      <p>
+          <label class="cl-checkbox">
+              <input type = "checkbox" name = "Q3" value = "Software">
+              <span> A Software </span>
+          </label>
+          
+          <label class="cl-checkbox">
+              <input type = "checkbox" name = "Q3" value = "Code Generator">
+              <span> A code generator </span>
+          </label>
+          
+          <label class="cl-checkbox">
+              <input type = "checkbox" name = "Q3" value = "Open Source Code">
+              <span> An open source code </span>
+          </label>
+          
+          <label class="cl-checkbox">
+              <input type = "checkbox" name = "Q3" value = "Debugger">
+              <span> A debugger </span>
+          </label>
+          
+    </Fieldset> 
+    
+<!-- Fieldset for Question 4 -->
+    <Fieldset>
+        
+      <Legend>Question 4</Legend>
+
+      <p>Who is a key group or induvidial in the development and/or management of Ruby as of March 2023?</p>
+
+      <p>
+          
+        <div class="container" required ="required">
+        
+		  <label>
+              
+			<input type="radio" name="Q4" checked="" value="Ruby Development Team" title = "Select only one">
+              
+			<span>Ruby Development Team</span>
+              
+		  </label>
+            
+		  <label>
+              
+			<input type="radio" name="Q4" value="Ruby Official" title = "Select only one">
+              
+			<span>Ruby Official</span>
+              
+		  </label>
+            
+		  <label>
+              
+			<input type="radio" name="Q4" value="Ruby Debugging" title = "Select only one">
+              
+			<span>Ruby Debugging</span>
+              
+		  </label>
+            
+          <label>
+              
+			<input type="radio" name="Q4" value="Ruby Gems" title = "Select only one">
+              
+			<span>Ruby Gems</span>
+              
+          </label>
+        
+        </div>
+        
+    </Fieldset>
+    
+    
+<!-- Fieldset for Question 5 -->
+    
+    <Fieldset>      
+      <Legend>Question 5</Legend>
+
+      <p>What kind of tool is Ruby mainly used as?</p>
+      
+        <p>
+            
+            <!-- Put parameters here such that only letters both capital and simple  -->
+            
+            <textarea class="textarea" placeholder="Enter your Answer here..." cols="30" name="Q5" title = "Enter a short answer" required = "required"></textarea>
+        
+        </p>
+        
+    </Fieldset>
+    
+    
+<!-- Submit and Reset Button -->
+  <input class="button_submit button_submit:hover" type = "Submit" value = "Submit">
+  <input class="button_submit button_submit:hover" type = "Reset" value = "Reset">
+    
+  </form>
+        
+    </section>   
+    
+    <section>
+
+    <footer>
+    
+        <div class="footer">
+            
+            <div class="col-1">
+                
+                <h3>USEFUL LINKS</h3>
+                
+                <a href="https://rubyonrails.org/">Ruby on Rails</a>
+                
+                <a href="enhancement.html">References</a>
+                
+                <a href="team.html">Team Behind this project</a>
+                
+                <button class="menu">Contact Us</button>
+                
+            </div>
+                    
+        </div>
+    
+    </footer>
+        
+    </section>   
+    
+</body> 
+    
+</html>
