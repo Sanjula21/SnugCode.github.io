@@ -660,3 +660,20 @@ col-3 a
 .list-enhancement{
   margin-top: 15px;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 31.25em){
+
+  .card{
+
+    width: 70%;
+    height: 70%;
+
+  }
+  
+}
