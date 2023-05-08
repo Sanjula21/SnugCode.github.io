@@ -584,11 +584,30 @@ select
     text-decoration: none;
     color: #efefef;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .col-2 
 {
     flex-grow: 2;
+}
+
+col-2 a 
+{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+col-3 a
+{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #footer-input
