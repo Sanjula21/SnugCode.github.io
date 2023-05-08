@@ -586,6 +586,11 @@ select
     margin-bottom: 10px;
 }
 
+.col-2 
+{
+    flex-grow: 2;
+}
+
 #footer-input
 {
   color: black;
