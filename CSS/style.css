@@ -698,7 +698,10 @@ col-3 a
 
     text-align: 80px;
 
-    
-
   } 
+  .main-text{
+
+    text-align: center;
+
+  }
 }
