@@ -694,7 +694,7 @@ col-3 a
 @media screen and (max-width: 31.25em)
 {
 
-  .card{
+  .container{
 
     width: 90%;
     height: 40%;
