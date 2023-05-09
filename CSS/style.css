@@ -694,13 +694,14 @@ col-3 a
 @media screen and (max-width: 31.25em)
 {
 
-  .nav-section 
-{
-    padding: 3rem 4rem;
-    display: flex;
-    column-gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter:blur(15px);
+  .banner {
+    font-family: gotham;
+    width: 1500px;
+    font-size: 60px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
 }
-}
+      
+
+  }
