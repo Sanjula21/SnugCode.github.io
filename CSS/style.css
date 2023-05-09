@@ -38,6 +38,11 @@ body.topic
     background-image: url(images/TopicBG.jpg)
 }
 
+body.enhancement
+{
+    background-image: url(images/enhancementBG.jpeg);
+}
+
 * 
 {
     box-sizing: border-box;
