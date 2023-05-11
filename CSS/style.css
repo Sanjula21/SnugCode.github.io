@@ -693,6 +693,7 @@ col-3 a
 
 
 @media screen and (max-width: 31.25em)
+{
 
 .footer {
   margin-top: 25px;
@@ -730,3 +731,4 @@ margin-bottom: 300px;
 }
 
 
+}
