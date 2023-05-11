@@ -691,17 +691,43 @@ col-3 a
 
 
 
+
 @media screen and (max-width: 31.25em)
-{
 
-  .banner {
-    font-family: gotham;
-    width: 1500px;
-    font-size: 60px;
-    color: white;
-    padding-top: 100px;
-    text-align: center;
+  
+.footer {
+  margin-top: 25px;
+  width: 123%;
+  padding: 100px 15%;
+  background-color: #000000;
+  color: #efefef;
+  display: flex;
+  font-style: italic;
+  justify-content: center;
 }
-      
 
-  }
+#nav-link-section {
+column-gap: calc(100%/4);
+padding-left: 200px;
+padding-right: 0px;
+}
+
+.banner {
+font-family: gotham;
+width: 120%;
+font-size: 50px;
+color: white;
+padding-top: 100px;
+text-align: center;
+}
+
+.main-text {
+width: 1000px;
+font-size: 20px;
+text-align: center;
+margin-left: 100px;
+margin-top: 5px;
+margin-bottom: 300px;
+}
+
+
