@@ -42,7 +42,7 @@
         <strong>Q2: What is the name of the developer of the language?</strong>
                  A: <?php echo $_POST["Q2"]; ?>
 
-         <?php
+        <?php
         $submittedA2 = $_POST["Q2"];
         $correctA2 = Yukihiro Matsumoto;
 
@@ -62,7 +62,7 @@
         <strong>Q3: What is Ruby</strong>
                  A: <?php echo $_POST["Q3"]; ?>
 
-         <?php
+        <?php
         $submittedA3 = $_POST["Q3"];
         $correctA3 = Open Source Code;
 
@@ -82,7 +82,7 @@
          <strong>Q4: Who is a key group or induvidial in the development and/or management of Ruby as of March 2023?</strong>
                   A: <?php echo $_POST["Q4"]; ?>
 
-          <?php
+        <?php
         $submittedA4 = $_POST["Q4"];
         $correctA4 = Ruby Development Team;
 
@@ -101,8 +101,6 @@
 
          <strong>Q5: What kind of tool is Ruby mainly used as?</strong>
                   A: <?php echo $_POST["Q5"]; ?>
-        
-
     </body>
 
 </html>
