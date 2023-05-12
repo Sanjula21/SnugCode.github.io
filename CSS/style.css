@@ -730,7 +730,7 @@ margin-top: 5px;
 margin-bottom: 300px;
 }
 
-aside {
+.aside {
   width: 550px;
   float: left;
   border: 2px solid white;
@@ -741,7 +741,7 @@ aside {
 
 .footer {
   margin-top: 25px;
-  width: 150%;
+  width: 110%;
   padding: 100px 15%;
   background-color: #000000;
   color: #efefef;
@@ -750,9 +750,8 @@ aside {
   justify-content: center;
 }
 
-
-nav {
-  width: 80%;
+.nav {
+  width: 90%;
   color: white;
 }
   
