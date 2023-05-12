@@ -28,11 +28,11 @@
 
         if (intval($submittedA1) === $correctA1) 
         {
-        echo "Correct!";
+         echo "Correct!";
         } 
         else 
         {
-        echo "Incorrect...";
+         echo "Incorrect...";
         }
         ?>
 
@@ -48,11 +48,11 @@
 
         if (intval($submittedA2) === $correctA2) 
         {
-        echo "Correct!";
+         echo "Correct!";
         } 
         else 
         {
-        echo "Incorrect...";
+         echo "Incorrect...";
         }
         ?>
 
@@ -68,11 +68,11 @@
 
         if (intval($submittedA3) === $correctA3) 
         {
-        echo "Correct!";
+         echo "Correct!";
         } 
         else 
         {
-        echo "Incorrect...";
+         echo "Incorrect...";
         }
         ?>
 
@@ -88,11 +88,11 @@
 
         if (intval($submittedA4) === $correctA4) 
         {
-        echo "Correct!";
+         echo "Correct!";
         } 
         else 
         {
-        echo "Incorrect...";
+         echo "Incorrect...";
         }
         ?>
 
