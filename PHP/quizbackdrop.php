@@ -23,7 +23,7 @@
                  A: <?php echo $_POST["Q1"]; ?>
 
         <?php
-        $submittedA1 = $_POST['Q1'];
+        $submittedA1 = $_POST["Q1"];
         $correctA1 = Decline;
 
         if (intval($submittedA1) === $correctA1) 
@@ -43,7 +43,7 @@
                  A: <?php echo $_POST["Q2"]; ?>
 
          <?php
-        $submittedA2 = $_POST['Q2'];
+        $submittedA2 = $_POST["Q2"];
         $correctA2 = Yukihiro Matsumoto;
 
         if (intval($submittedA2) === $correctA2) 
@@ -63,7 +63,7 @@
                  A: <?php echo $_POST["Q3"]; ?>
 
          <?php
-        $submittedA3 = $_POST['Q3'];
+        $submittedA3 = $_POST["Q3"];
         $correctA3 = Open Source Code;
 
         if (intval($submittedA3) === $correctA3) 
@@ -83,7 +83,7 @@
                   A: <?php echo $_POST["Q4"]; ?>
 
           <?php
-        $submittedA4 = $_POST['Q4'];
+        $submittedA4 = $_POST["Q4"];
         $correctA4 = Ruby Development Team;
 
         if (intval($submittedA4) === $correctA4) 
