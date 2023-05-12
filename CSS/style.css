@@ -730,5 +730,31 @@ margin-top: 5px;
 margin-bottom: 300px;
 }
 
+aside {
+  width: 550px;
+  float: left;
+  border: 2px solid white;
+  padding: 5px;
+  margin-top: 5px;
+  margin-right: 100px;
+}
+
+.footer {
+  margin-top: 25px;
+  width: 150%;
+  padding: 100px 15%;
+  background-color: #000000;
+  color: #efefef;
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+}
+
+
+nav {
+  width: 80%;
+  color: white;
+}
+  
 
 }
