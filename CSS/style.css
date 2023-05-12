@@ -695,6 +695,71 @@ col-3 a
 @media screen and (max-width: 31.25em)
 {
 
+  .banner {
+    font-family: gotham;
+    width: 130%;
+    font-size: 50px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main-text {
+  width: 500px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: 5px;
+  margin-bottom: 300px;
+  margin-right: 500px;
+}
+
+.footer {
+  margin-top: 25px;
+  width: 130%;
+  padding: 100px 15%;
+  background-color: #000000;
+  color: #efefef;
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+}
+
+.nav {
+  width: 130%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #nav-link-section {
 column-gap: calc(100%/4);
