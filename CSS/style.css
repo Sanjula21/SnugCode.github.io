@@ -695,16 +695,18 @@ col-3 a
 @media screen and (max-width: 31.25em)
 {
 
-  .banner {
+  .banner 
+  {
     font-family: gotham;
     width: 130%;
     font-size: 50px;
     color: white;
     padding-top: 100px;
     text-align: center;
-}
+  }
 
-.main-text {
+  .main-text 
+{
   width: 500px;
   font-size: 50px;
   text-align: center;
@@ -714,7 +716,8 @@ col-3 a
   margin-right: 500px;
 }
 
-.footer {
+.footer 
+{
   margin-top: 25px;
   width: 130%;
   padding: 100px 15%;
@@ -817,11 +820,8 @@ margin-bottom: 300px;
   justify-content: center;
 }
 
-nav {
+nav 
+{
   width: 90%;
   color: white;
-}
-  
-
-
 }
